@@ -1,2 +1,1 @@
-# learning-react
-learning react
+Learning react instructed by Taymoor bhai
