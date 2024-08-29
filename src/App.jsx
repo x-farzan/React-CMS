@@ -1,4 +1,5 @@
 import Main from "./components/Main";
+import Project from "./components/Project";
 import Sidenav from "./components/Sidenav";
 import Work from "./components/Work";
 
@@ -8,6 +9,7 @@ function App() {
       <Sidenav />
       <Main />
       <Work />
+      <Project />
     </>
   );
 }
