@@ -5,13 +5,14 @@ import {
   FaTwitter,
 } from "react-icons/fa";
 import { TypeAnimation } from "react-type-animation";
+import cover from "../assets/cover.jpg";
 
 const Main = () => {
   return (
     <div id="main">
       <img
         className="w-full h-screen object-cover object-left scale-x-[-1]"
-        src="https://images.unsplash.com/photo-1521747116042-5a810fda9664"
+        src={cover}
         alt="A beautWe produce food for Hamstersiful mountain landscape"
       />
       <div className="w-full h-screen absolute top-0 left-0 bg-white/50">
