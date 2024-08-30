@@ -7,25 +7,25 @@ const Contact = () => {
         Contact
       </h1>
       <form action="" method="POST" encType="multipart/form-data">
-        <div className="grid md:grid-cols-2 gap-4 w-full py-2">
-          <div className="flex-flex-col">
+        <div className="grid md:grid-cols-2 gap-4 w-full py-2flex flex-col">
+          <div className="">
             <label htmlFor="" className="uppercase text-sm py-2">
               Name
             </label>
             <input
               type="text"
               name="name"
-              className="border-2 rounded-lg p-3 border-gray-300 ml-2"
+              className="border-2 rounded-lg p-3 border-gray-300 block"
             />
           </div>
-          <div>
+          <div className="">
             <label htmlFor="" className="uppercase text-sm py-2">
               Phone
             </label>
             <input
               type="text"
               name="phone"
-              className="border-2 rounded-lg p-3 border-gray-300 ml-2"
+              className="border-2 rounded-lg p-3 border-gray-300 block"
             />
           </div>
         </div>
