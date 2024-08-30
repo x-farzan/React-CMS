@@ -2,6 +2,7 @@ import Main from "./components/Main";
 import Project from "./components/Project";
 import Sidenav from "./components/Sidenav";
 import Work from "./components/Work";
+import Contact from "./components/Contact";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Main />
       <Work />
       <Project />
+      <Contact />
     </>
   );
 }
